@@ -1,0 +1,19 @@
+columns:
+    id:
+        label: id
+        type: number
+    name:
+        label: name
+        type: text
+    latitude:
+        label: latitude
+        type: text
+    longitude:
+        label: longitude
+        type: text
+    address:
+        label: address
+        type: text
+    content:
+        label: content
+        type: text

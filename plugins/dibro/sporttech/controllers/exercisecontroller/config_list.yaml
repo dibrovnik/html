@@ -1,0 +1,12 @@
+list: $/dibro/sporttech/models/exercise/columns.yaml
+modelClass: Dibro\SportTech\Models\Exercise
+title: ExerciseController
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'dibro/sporttech/exercisecontroller/update/:id'

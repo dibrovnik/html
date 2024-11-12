@@ -1,0 +1,17 @@
+v1.0.1:
+    - 'Initialize plugin'
+v1.0.2:
+    - 'Created table dibro_sporttech_rating'
+    - builder_table_create_dibro_sporttech_rating.php
+v1.0.3:
+    - 'Updated table dibro_sporttech_rating'
+    - builder_table_update_dibro_sporttech_rating.php
+v1.0.4:
+    - 'Created table dibro_sporttech_exercises'
+    - builder_table_create_dibro_sporttech_exercises.php
+v1.0.5:
+    - 'Created table dibro_sporttech_locations'
+    - builder_table_create_dibro_sporttech_locations.php
+v1.0.6:
+    - 'Created table dibro_sporttech_news'
+    - builder_table_create_dibro_sporttech_news.php

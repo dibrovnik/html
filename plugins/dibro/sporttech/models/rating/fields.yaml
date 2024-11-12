@@ -1,0 +1,13 @@
+fields:
+    user_id:
+        label: 'User id'
+        span: auto
+        type: number
+    exercise:
+        label: Exercise
+        span: auto
+        type: text
+    value:
+        label: Value
+        span: auto
+        type: text

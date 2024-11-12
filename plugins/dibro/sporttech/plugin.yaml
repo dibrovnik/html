@@ -1,0 +1,23 @@
+plugin:
+    name: 'dibro.sporttech::lang.plugin.name'
+    description: 'dibro.sporttech::lang.plugin.description'
+    author: dibro
+    icon: oc-icon-bicycle
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Rating
+        url: dibro/sporttech/ratingcontroller
+        icon: icon-life-ring
+    main-menu-item2:
+        label: Exercise
+        url: dibro/sporttech/exercisecontroller
+        icon: icon-life-ring
+    main-menu-item3:
+        label: Location
+        url: dibro/sporttech/locationcontroller
+        icon: icon-life-ring
+    main-menu-item4:
+        label: News
+        url: dibro/sporttech/newscontroller
+        icon: icon-life-ring

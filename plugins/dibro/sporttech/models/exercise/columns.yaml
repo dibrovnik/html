@@ -1,0 +1,13 @@
+columns:
+    id:
+        label: id
+        type: number
+    name:
+        label: name
+        type: text
+    photo_url:
+        label: photo_url
+        type: text
+    link:
+        label: link
+        type: text

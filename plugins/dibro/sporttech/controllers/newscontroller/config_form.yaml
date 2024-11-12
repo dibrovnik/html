@@ -1,0 +1,10 @@
+name: NewsController
+form: $/dibro/sporttech/models/news/fields.yaml
+modelClass: Dibro\SportTech\Models\News
+defaultRedirect: dibro/sporttech/newscontroller
+create:
+    redirect: 'dibro/sporttech/newscontroller/update/:id'
+    redirectClose: dibro/sporttech/newscontroller
+update:
+    redirect: dibro/sporttech/newscontroller
+    redirectClose: dibro/sporttech/newscontroller

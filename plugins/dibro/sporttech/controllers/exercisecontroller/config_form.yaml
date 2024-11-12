@@ -1,0 +1,10 @@
+name: ExerciseController
+form: $/dibro/sporttech/models/exercise/fields.yaml
+modelClass: Dibro\SportTech\Models\Exercise
+defaultRedirect: dibro/sporttech/exercisecontroller
+create:
+    redirect: 'dibro/sporttech/exercisecontroller/update/:id'
+    redirectClose: dibro/sporttech/exercisecontroller
+update:
+    redirect: dibro/sporttech/exercisecontroller
+    redirectClose: dibro/sporttech/exercisecontroller

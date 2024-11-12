@@ -1,0 +1,30 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    latitude:
+        label: Latitude
+        span: auto
+        type: text
+    longitude:
+        label: Longitude
+        span: auto
+        type: text
+    address:
+        label: Address
+        span: auto
+        type: text
+    content:
+        label: Content
+        span: auto
+        type: textarea
+    photos:
+        label: 'File Upload'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

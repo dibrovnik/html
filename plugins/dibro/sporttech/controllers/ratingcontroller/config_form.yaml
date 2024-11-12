@@ -1,0 +1,10 @@
+name: RatingController
+form: $/dibro/sporttech/models/rating/fields.yaml
+modelClass: Dibro\SportTech\Models\Rating
+defaultRedirect: dibro/sporttech/ratingcontroller
+create:
+    redirect: 'dibro/sporttech/ratingcontroller/update/:id'
+    redirectClose: dibro/sporttech/ratingcontroller
+update:
+    redirect: dibro/sporttech/ratingcontroller
+    redirectClose: dibro/sporttech/ratingcontroller

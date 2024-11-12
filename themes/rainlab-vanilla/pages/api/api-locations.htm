@@ -1,0 +1,19 @@
+url = "/api/locations"
+[exerciseComponent]
+==
+
+{% set result = collect() %}
+
+{% for location in locations %}
+{% set item = {
+id: location.id,
+name: location.name,
+latitude: location.latitude,
+longitude: location.longitude,
+content: location.content,
+photo_urls: location.photos | map(photo => photo.getPath())
+} %}
+{% do result.push(item) %}
+{% endfor %}
+
+{% do response(result) %}

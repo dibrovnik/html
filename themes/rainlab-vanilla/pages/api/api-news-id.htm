@@ -1,0 +1,17 @@
+url = "/api/news/:id?"
+[exerciseComponent]
+==
+
+{% set result = collect() %}
+
+{% for news_item in news %}
+{% set item = {
+id: news_item.id,
+title: news_item.title,
+content: news_item.content,
+photo_urls: news_item.photo_urls
+} %}
+{% do result.push(item) %}
+{% endfor %}
+
+{% do response(result) %}

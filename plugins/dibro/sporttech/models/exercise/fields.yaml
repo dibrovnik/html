@@ -1,0 +1,13 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    photo_url:
+        label: 'Photo url'
+        span: auto
+        type: text
+    link:
+        label: Link
+        span: auto
+        type: text

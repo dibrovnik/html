@@ -1,0 +1,17 @@
+url = "/api/exercises"
+[exerciseComponent]
+==
+
+{% set result = collect() %}
+
+{% for exercise in exercises %}
+{% set item = {
+id: exercise.id,
+name: exercise.name,
+photo_url: exercise.photo_url,
+link: exercise.link
+} %}
+{% do result.push(item) %}
+{% endfor %}
+
+{% do response(result) %}

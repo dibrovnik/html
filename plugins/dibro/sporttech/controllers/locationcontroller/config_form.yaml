@@ -1,0 +1,10 @@
+name: LocationController
+form: $/dibro/sporttech/models/location/fields.yaml
+modelClass: Dibro\SportTech\Models\Location
+defaultRedirect: dibro/sporttech/locationcontroller
+create:
+    redirect: 'dibro/sporttech/locationcontroller/update/:id'
+    redirectClose: dibro/sporttech/locationcontroller
+update:
+    redirect: dibro/sporttech/locationcontroller
+    redirectClose: dibro/sporttech/locationcontroller
